@@ -6,7 +6,7 @@ router = APIRouter(tags=["Recursive Search"])
 
 
 
-@router.post("/algorithm/recursive-search", response_model=ReSear, status_code=status.HTTP_201_CREATED)
+@router.post("/recursive-search", response_model=ReSear, status_code=status.HTTP_201_CREATED)
 async def recursive_search_endpoint(item: SearchItem):
     """
     Q7 (BONUS): Implements a recursive binary searching algorithm.
