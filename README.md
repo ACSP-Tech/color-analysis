@@ -86,4 +86,4 @@ Start the Uvicorn server, targeting the app.main module (assuming your main appl
 uvicorn app.main:app --reload
 
 
-The API will be available at [color-analysis](https://color-analysis-bincom-assess.up.railway.app).
+The API will be available at [color-analysis](https://color-analysis-bincom-assess.up.railway.app/redoc).
